@@ -297,12 +297,13 @@
         android:background="@android:color/background_light"
         android:ems="10"
         android:hint="@string/second_operand"
-        android:inputType="textPersonName|numberDecimal"
+        android:inputType="numberDecimal"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toStartOf="@+id/editText4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" tools:targetApi="o"/>
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="o" />
 
     <EditText
         android:id="@+id/editText4"
@@ -316,7 +317,7 @@
         android:background="@android:color/background_light"
         android:ems="10"
         android:hint="@string/start"
-        android:inputType="textPersonName|numberSigned|numberDecimal"
+        android:inputType="numberDecimal"
         android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
